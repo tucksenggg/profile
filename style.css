@@ -1,0 +1,87 @@
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+h2, p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-pink {
+  background-color: #ffc8c2;
+  border-radius: 12px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-right: 70px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .card-pink {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .card-pink {
+    font-size: 0.6rem;
+  }
+}
